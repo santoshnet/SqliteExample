@@ -75,6 +75,7 @@ public class ListViewActivity extends Activity {
 
         LISTVIEW.setAdapter(ListAdapter);
 
+
         cursor.close();
     }
 }

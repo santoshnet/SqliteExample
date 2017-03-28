@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_bg"
         android:ems="10"
         android:gravity="center"
         android:hint="Enter Name Here" />
@@ -23,10 +24,12 @@
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
         android:ems="10"
         android:gravity="center"
         android:hint="Enter Phone Number Here"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:maxLength="10" />
 
     <EditText
         android:id="@+id/editText3"
@@ -35,6 +38,7 @@
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_bg"
         android:ems="10"
         android:gravity="center"
         android:hint="Enter Subject Here" />
